@@ -1,0 +1,17 @@
+
+O Maven gera o arquivo .jar
+Na paleta de comandos do VSCode (CTRL + Shift + P):
+- Maven: Execute Commands... -> package (irá criar o arquivo .jar)
+O arquivo .jar fica na pasta target da aplicação
+Para executar a aplicação .jar gerada, basta ir na pasta onde ela se encontra e digitar o comando:
+java -jar nome-do-arquivo.jar (Dica: é só começar a digitar o nome do arquivo e pressionar TAB para auto-completar)
+Lembrando que para executar esse comando é necessário ter o JDK isntalado na máquina
+Uma vez em execução, basta enviar a requisição HTTP através de um cliente
+O executável do Java é um zip
+O .jar não tem as classes em .java, mas em .class
+
+É necessário criar uma imagem docker
+Criando um docker file:
+- Na paleta de comandos do VSCode, digitar dockerfile
+- Uma vez criado o dockerfile, criar a imagem propriamente dita:
+	- Docker Images: Build Image

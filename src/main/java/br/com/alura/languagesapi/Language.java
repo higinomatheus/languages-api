@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "principaisLinguagens")
 public class Language {
-
+    // Esta classe representa a collection "principaisLinguages" do MongoDB
     @Id
     private String id;
     private String title;
